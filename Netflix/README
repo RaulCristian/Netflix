@@ -1,0 +1,46 @@
+Voinea Raul Cristian - 314CB
+
+In aceasta tema am implementat un sistem de gestionare a unei baze de date de
+seriale de tipul Netflix.
+
+La implementare am folosit functii pe coada stive si liste.
+
+Fiecare categorie de serial este reprezentata de o lista simpla
+generica.
+
+La randul sau fiecare celula din lista aceasta contine un tip serial.
+
+Serialul este format dintr-o coada de sezoane, sezoanele sunt formate
+din cozi de episoade.
+
+Pentru a introduce seriale noi in una din listele 1 2 3 sau top10
+am folosit functia Add care creeaza si adauga serialul pe pozitiile
+determinate de conditie
+
+La cozi pentru parcurgeri am folosit functiile ExtrQ si IntrQ si cozi
+de pastrare temporara a datelor extrase.
+
+La stive asemanator ca la cozi am folosit functiie parcurgeri Pop si Push
+si stive de pastrare temporara.
+
+Pentru functia show am facut o parcurgere corespunzatoare pentru liste, stive
+si cozi.
+
+La liste am mers pe noduri si am afisat fiecare serial
+
+La cozi a trebuit sa folosesc o coada temporara pentru a pastra datele
+folosite doar pentru afisare.
+
+Si la stive la fel.
+
+La watch am introdus serialele care nu mai aveau sezoane de vizualizat in
+stiva history iar cele privite partial in currently_watching
+
+La fiecare sesiune de vizionalizare era dat un timp care pe masura
+ce se epuiza se extrageau din structura episoade si cu mai multe episoade -
+sezoane
+
+La later am bagat serialul din una din categorii top10, 1, 2, 3
+in coada watching later
+
+In final am folosit functia de eliberare a bazei de date Eliberare
